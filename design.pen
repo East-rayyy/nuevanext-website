@@ -1,0 +1,899 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ZhYrp",
+      "x": 0,
+      "y": 0,
+      "name": "Desktop - NuevaNext",
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NiAYZ",
+          "name": "Navbar",
+          "width": "fill_container",
+          "padding": [
+            28,
+            100
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BxTm1",
+              "name": "logo",
+              "fill": "$foreground-primary",
+              "content": "NuevaNext",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "X0Izs",
+              "name": "contactLink",
+              "fill": "$foreground-secondary",
+              "content": "Contact",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8dp1u",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            160,
+            100,
+            140,
+            100
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "03Nj0",
+              "name": "headline",
+              "fill": "$foreground-primary",
+              "content": "We build AI-powered\nproducts that ship.",
+              "lineHeight": 1.08,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 80,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "WxO15",
+              "name": "subtitle",
+              "fill": "$foreground-secondary",
+              "content": "NuevaNext is a UK-based product studio. We build, launch, and run\nSaaS tools powered by AI — from first line of code to production.",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "Q1Bpx",
+              "name": "divider",
+              "fill": "$accent-blue",
+              "width": 80,
+              "height": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OlVb0",
+          "name": "DailyTube Feature",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": 100,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "hfRAR",
+              "name": "productLabel",
+              "fill": "$accent-blue",
+              "content": "OUR PRODUCT",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "xT5qL",
+              "name": "card",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$rounded-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xCC3e",
+                  "name": "cardLeft",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 56,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KH7Qb",
+                      "name": "cardStatus",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "eyaR7",
+                          "name": "statusDot",
+                          "fill": "#22C55EFF",
+                          "width": 9,
+                          "height": 9
+                        },
+                        {
+                          "type": "text",
+                          "id": "y5dvx",
+                          "name": "statusText",
+                          "fill": "#22C55EFF",
+                          "content": "Live in production",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "17Jfe",
+                      "name": "cardTitle",
+                      "fill": "$foreground-primary",
+                      "content": "DailyTube",
+                      "fontFamily": "Inter",
+                      "fontSize": 42,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dOWLK",
+                      "name": "cardDesc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AI-powered YouTube summaries delivered straight to WhatsApp. Watches the channels you care about, processes new videos with AI, and sends concise summaries u2014 so you stay informed without watching hours of content.",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uEd4R",
+                      "name": "stack",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eIKE7",
+                          "name": "s1",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 16,
+                          "padding": [
+                            7,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SkjHC",
+                              "name": "s1t",
+                              "fill": "$accent-blue",
+                              "content": "React",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j84yl",
+                          "name": "s2",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 16,
+                          "padding": [
+                            7,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XlLSx",
+                              "name": "s2t",
+                              "fill": "$accent-blue",
+                              "content": "TypeScript",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "urhWH",
+                          "name": "s3",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 16,
+                          "padding": [
+                            7,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9Ivp3",
+                              "name": "s3t",
+                              "fill": "$accent-blue",
+                              "content": "Supabase",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1Xx4U",
+                          "name": "s4",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 16,
+                          "padding": [
+                            7,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iwcbM",
+                              "name": "s4t",
+                              "fill": "$accent-blue",
+                              "content": "Temporal",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VDqdr",
+                          "name": "s5",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 16,
+                          "padding": [
+                            7,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GUXcJ",
+                              "name": "s5t",
+                              "fill": "$accent-blue",
+                              "content": "Docker",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "8iKAP",
+                      "name": "visitLink",
+                      "fill": "$accent-blue",
+                      "content": "Visit daily-tube.com →",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4wY11",
+                  "name": "cardRight",
+                  "width": 620,
+                  "height": "fill_container",
+                  "fill": "$accent-primary",
+                  "cornerRadius": [
+                    0,
+                    12,
+                    12,
+                    0
+                  ],
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WJhDV",
+                      "name": "cardRightText",
+                      "fill": "$foreground-secondary",
+                      "content": "daily-tube.com",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "p6uUi",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border-subtle"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            100
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Yvjob",
+              "name": "contactTitle",
+              "fill": "$foreground-primary",
+              "content": "Get in Touch",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "aQKGS",
+              "name": "contactLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l9x26",
+                  "name": "emailLink",
+                  "fill": "$accent-blue",
+                  "content": "ryan@nuevanext.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "rKibc",
+                  "name": "linkedinLink",
+                  "fill": "$accent-blue",
+                  "content": "LinkedIn →",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "5qWAr",
+              "name": "copyright",
+              "fill": "$foreground-muted",
+              "content": "© 2025 NuevaNext · United Kingdom",
+              "fontFamily": "Inter",
+              "fontSize": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "g98nK",
+      "x": 1600,
+      "y": 0,
+      "name": "Mobile - NuevaNext",
+      "width": 393,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "WP3aG",
+          "name": "Mobile Nav",
+          "width": "fill_container",
+          "padding": [
+            24,
+            28
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Fob05",
+              "name": "mLogo",
+              "fill": "$foreground-primary",
+              "content": "NuevaNext",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "bcA37",
+              "name": "mContact",
+              "fill": "$foreground-secondary",
+              "content": "Contact",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gqqLS",
+          "name": "Mobile Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            80,
+            28,
+            64,
+            28
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BWZxt",
+              "name": "mHeadline",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We build AI-powered\nproducts that ship.",
+              "lineHeight": 1.15,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 34,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "iIRnx",
+              "name": "mSubtitle",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "NuevaNext is a UK-based product studio. We build, launch, and run SaaS tools powered by AI — from first line of code to production.",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 15
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "1YKS1",
+              "name": "mDivider",
+              "fill": "$accent-blue",
+              "width": 48,
+              "height": 3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kHoeK",
+          "name": "Mobile Product",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            56,
+            28
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "NFqcd",
+              "name": "mProdLabel",
+              "fill": "$accent-blue",
+              "content": "OUR PRODUCT",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "KeaKC",
+              "name": "mCard",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": "$rounded-md",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OUfiT",
+                  "name": "mCardVisual",
+                  "width": "fill_container",
+                  "height": 180,
+                  "fill": "$accent-primary",
+                  "cornerRadius": [
+                    12,
+                    12,
+                    0,
+                    0
+                  ],
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qbrX8",
+                      "name": "mCardVisualT",
+                      "fill": "$foreground-secondary",
+                      "content": "daily-tube.com",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BI7lu",
+                  "name": "mCardBody",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AJaiD",
+                      "name": "mStatus",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "R5gSs",
+                          "name": "mStatusDot",
+                          "fill": "#22C55EFF",
+                          "width": 7,
+                          "height": 7
+                        },
+                        {
+                          "type": "text",
+                          "id": "japZF",
+                          "name": "mStatusT",
+                          "fill": "#22C55EFF",
+                          "content": "Live in production",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZP0OW",
+                      "name": "mCardTitle",
+                      "fill": "$foreground-primary",
+                      "content": "DailyTube",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MqwRn",
+                      "name": "mCardDesc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AI-powered YouTube summaries delivered straight to WhatsApp. Watches the channels you care about and sends concise summaries so you stay informed.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dJiCI",
+                      "name": "mPills",
+                      "width": "fill_container",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "4q3IL",
+                          "name": "mp1",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 14,
+                          "padding": [
+                            5,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rhAW1",
+                              "name": "mp1t",
+                              "fill": "$accent-blue",
+                              "content": "React",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EW7gm",
+                          "name": "mp2",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 14,
+                          "padding": [
+                            5,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Gf7hm",
+                              "name": "mp2t",
+                              "fill": "$accent-blue",
+                              "content": "TypeScript",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j6LbK",
+                          "name": "mp3",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 14,
+                          "padding": [
+                            5,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fXRUb",
+                              "name": "mp3t",
+                              "fill": "$accent-blue",
+                              "content": "Supabase",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pTQC7",
+                          "name": "mp4",
+                          "fill": "$surface-primary",
+                          "cornerRadius": 14,
+                          "padding": [
+                            5,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uP1fZ",
+                              "name": "mp4t",
+                              "fill": "$accent-blue",
+                              "content": "Temporal",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "4ENpf",
+                      "name": "mVisit",
+                      "fill": "$accent-blue",
+                      "content": "Visit daily-tube.com →",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CNYxB",
+          "name": "Mobile Footer",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border-subtle"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            28
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "i2KCX",
+              "name": "mContactTitle",
+              "fill": "$foreground-primary",
+              "content": "Get in Touch",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "enZfk",
+              "name": "mContactLinks",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bsiKk",
+                  "name": "mEmail",
+                  "fill": "$accent-blue",
+                  "content": "ryan@nuevanext.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "165Z0",
+                  "name": "mLinkedin",
+                  "fill": "$accent-blue",
+                  "content": "LinkedIn →",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "7L2Zu",
+              "name": "mCopyright",
+              "fill": "$foreground-muted",
+              "content": "© 2025 NuevaNext · United Kingdom",
+              "fontFamily": "Inter",
+              "fontSize": 12
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-blue": {
+      "type": "color",
+      "value": "#3B82F6FF"
+    },
+    "accent-highlight": {
+      "type": "color",
+      "value": "#533483FF"
+    },
+    "accent-primary": {
+      "type": "color",
+      "value": "#0F3460FF"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#1E293BFF"
+    },
+    "foreground-muted": {
+      "type": "color",
+      "value": "#64748BFF"
+    },
+    "foreground-primary": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "foreground-secondary": {
+      "type": "color",
+      "value": "#94A3B8FF"
+    },
+    "rounded-md": {
+      "type": "number",
+      "value": 12
+    },
+    "rounded-none": {
+      "type": "number",
+      "value": 0
+    },
+    "rounded-sm": {
+      "type": "number",
+      "value": 6
+    },
+    "surface-inverse": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#1A1A2EFF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#16213EFF"
+    }
+  }
+}
